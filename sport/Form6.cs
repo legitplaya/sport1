@@ -22,7 +22,7 @@ namespace sport
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (checkedListBox1.Text == "боби шишер")
+            if (checkedListBox1.SelectedIndex == 3)
 
             {
                 MessageBox.Show("Правильно!"); count++;
